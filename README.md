@@ -1,0 +1,2 @@
+# Domotica_NodeMCU_ArduinoIDE
+Este proyecto cuenta inició dentro del ámbito académico en la Universidad Nacional de Córdoba - Facultad de Ciencias Exactas Físicas y Naturales. En él se desarrollo un sistema de domótica activado por voz y empleando Google Voice Acces, una aplicación creada con MIT App Inventor, una placa ESP8266 NodeMCU programada utilizando la IDE de Arduino y un juego de 2 relés y un interruptor
