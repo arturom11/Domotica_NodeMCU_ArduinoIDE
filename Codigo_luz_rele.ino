@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "sofia wifi";
-const char* password = "1862459000";
+const char* ssid = "SSID";
+const char* password = "password";
 
 // Instacio el Server seteado para que escuche por el puerto 301
 
@@ -15,9 +15,9 @@ void setup() {
   delay(10);
 
   // prepare GPIO2
-  pinMode(5, OUTPUT);               //Luz=D3=GP 0
+  pinMode(5, OUTPUT);               //Luz=D1=GP 5
   digitalWrite(5, 1);               //Luz apagada (relé normalmente abierto)
-  pinMode(4, OUTPUT);               //Enchufe=D4=GP 2
+  pinMode(4, OUTPUT);               //Enchufe=D2=GP 4
   digitalWrite(4, 1);               //Enchufe encendido (relé normalmente cerrado)
   
   // Connect to WiFi network
